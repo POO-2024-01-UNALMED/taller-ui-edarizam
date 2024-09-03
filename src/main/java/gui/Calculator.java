@@ -115,7 +115,7 @@ public class Calculator extends VBox implements EventHandler<ActionEvent>{
 		equals.setOnAction(this);
 		
 		Button reset = new Button("C");
-		gd.add(reset, 0, 4, 2, 1);
+		gd.add(reset, 0, 4, 4, 1);
 		reset.setPrefWidth(215);
 		reset.setOnAction(this);
 		
